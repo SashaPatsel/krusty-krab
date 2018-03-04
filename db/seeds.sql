@@ -1,1 +1,1 @@
-INSERT INTO krabby (patty_name) VALUES ("Krabby Patty"), ("Emergency Krabby Patty"), ("Krabby Patty in a Can")
+INSERT INTO krabby (patty_name) VALUES ("Krabby Patty"), ("Emergency Krabby Patty"), ("Krabby Patty in a Can");

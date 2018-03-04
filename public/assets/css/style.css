@@ -1,0 +1,27 @@
+/*Switch to ...a few moments later.. with voice in between burgers being eaten*/
+
+body {
+    background: url("http://www.kinyu-z.net/data/wallpapers/228/1501267.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Krabby Patty;
+    color: rgb(255, 253, 56);
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: Krabby Patty;
+    src: url('Krabby Patty.ttf'),
+    url('Krabby Patty.eot');
+    /* IE9 */
+}
+
+#krab-dreams {
+  position: absolute;
+  left: 42%;
+  top: 22%;
+}

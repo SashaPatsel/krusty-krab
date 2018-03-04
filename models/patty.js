@@ -9,6 +9,8 @@ var krabby = {
   insertOne: function(cols, vals, cb) {
     orm.insertOne("krabby", cols, vals, function(res) {
       cb(res);
+      console.log("4", cols)
+      console.log("5", vals)
     });
   },
   updateOne: function(objColVals, condition, cb) {
