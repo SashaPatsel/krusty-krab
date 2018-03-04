@@ -14,8 +14,8 @@ $(function() {
       data: newdevouredState
     }).then(
       function() {
-        console.log("changed devoured to", newdevoured);
         // Reload the page to get the updated list
+        console.log(newdevouredState)
         location.reload();
       }
     );
