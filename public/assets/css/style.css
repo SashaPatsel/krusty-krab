@@ -25,3 +25,10 @@ body {
   left: 42%;
   top: 22%;
 }
+
+.krabby-patty {
+    width: 60px;
+    height: auto;
+    position: relative;
+    top: 15px;
+}

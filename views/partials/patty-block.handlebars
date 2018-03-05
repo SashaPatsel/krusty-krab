@@ -1,7 +1,10 @@
 <li>
   {{patty_name}}
+  {{#if devoured}}
+{{!--   <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+    devoured TIME!
+  </button> --}}
+  <img src="assets/images/krabby-patty.png" class="change-devoured krabby-patty" data-id="{{id}}" data-newdevoured="{{devoured}}">
+  {{/if}}
 
-  <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-    {{#if devoured}}devoured TIME!{{/if}}
-  </button>
 </li>

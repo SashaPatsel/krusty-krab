@@ -54,6 +54,15 @@ var orm = {
       }
       cb (result)
     })
+  },
+  delete() {
+    connection.query("DELETE FROM krabby WHERE (id= 9)", function(err, result) {
+      if (err) {
+        throw err;
+      }
+
+    })
   }
 }
+// orm.delete()
 module.exports = orm;
