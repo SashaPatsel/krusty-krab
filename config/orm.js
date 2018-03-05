@@ -56,7 +56,7 @@ var orm = {
     })
   },
   delete() {
-    connection.query("DELETE FROM krabby WHERE (id= 9)", function(err, result) {
+    connection.query("DELETE FROM krabby WHERE (id= 3)", function(err, result) {
       if (err) {
         throw err;
       }

@@ -7,7 +7,8 @@ $(function() {
     var newdevouredState = {
       devoured: eaten
     };
-
+     // $(".main-content").hide()
+     //  $(".interlude").show()
     // Send the PUT request.
     $.ajax("/api/krabby/" + id, {
       type: "PUT",
@@ -19,6 +20,12 @@ $(function() {
         location.reload();
       }
     );
+
+    // setTimeout(momentsLater, 1000 * 5)
+    // function momentsLater() {
+    //   $(".interlude").hide()
+    //   $(".main-content").show()
+    // }
   });
 
   $(".create-form").on("submit", function(event) {
