@@ -1,7 +1,8 @@
 /*Switch to ...a few moments later.. with voice in between burgers being eaten*/
 
 body {
-
+background: url("http://www.kinyu-z.net/data/wallpapers/228/1501267.jpg") no-repeat center center fixed;
+    background-size: cover;
     font-family: Krabby Patty;
     color: rgb(255, 253, 56);
     text-shadow: -1px -1px 0 #000,
@@ -18,9 +19,14 @@ body {
 
 }
 
-.interlude {
-background: url("https://pbs.twimg.com/media/ChG557lWwAA4psl.jpg") no-repeat center center fixed;
-    background-size: cover;
+.meh {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+#mom-lat {
+    width: 100%;
 }
 
 @font-face {

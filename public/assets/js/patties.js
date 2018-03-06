@@ -1,5 +1,13 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
+  // $(".interlude").hide()
+
+// $(".meh").on("click", function(event) {
+// var song = $("#no-pickles")
+//  song.play();
+//     });
+
+
   $(".change-devoured").on("click", function(event) {
     var id = $(this).data("id");
     var eaten = $(this).data("newdevoured");
@@ -7,7 +15,7 @@ $(function() {
     var newdevouredState = {
       devoured: eaten
     };
-     // $(".main-content").hide()
+     
      //  $(".interlude").show()
     // Send the PUT request.
     $.ajax("/api/krabby/" + id, {
@@ -20,11 +28,11 @@ $(function() {
         location.reload();
       }
     );
-
+    // $("#no-pickles").play()
+    // $(".interlude").show()
     // setTimeout(momentsLater, 1000 * 5)
     // function momentsLater() {
-    //   $(".interlude").hide()
-    //   $(".main-content").show()
+    //   $(".interlude").hide() 
     // }
   });
 
