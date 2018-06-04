@@ -112,12 +112,10 @@ Manager view query example:
 
 * [mysql](https://www.npmjs.com/package/mysql) - The MySQL pack used
 * [node.js](https://nodejs.org/en/) - The backend JavaScript Framework
-* [inquirer](https://www.npmjs.com/package/inquirer) - Allows user interactivity
-* [CLI table](https://www.npmjs.com/package/cli-table) - Generated a table for data in database
 
 
 ## Authors
 
-* **Sasha Patsel** - *Initial work* - [Bamazon](https://github.com/SashaPatsel/bamazon-app)
+* **Sasha Patsel** - *Initial work* - [krusty-krab](https://github.com/SashaPatsel/bamazon-app)
 
 
